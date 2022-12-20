@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: auto auto;
+    grid-template-areas: 'home guest''new-game leader';
+    
+}
+.home {
+    grid-area: home;
+}
+.guest{
+    grid-area: guest;
+}
+.new-game{
+    grid-area: new-game;
+}
+.leader{
+    grid-area: leader;
+}
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    /* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE; 
+}
+.score {
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% */
+    text-align: center;
+
+    color: #F94F6D;
+}
+button {
+    font-family: 'Press Start 2P', cursive;
+    background: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    display: centre;
+}
+#new-game{
+    width: 150px;
+}

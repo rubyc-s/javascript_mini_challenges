@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    text-align: left;
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.password{
+    background-color: #273549;
+    color: white;
+}
+button{
+    background-color: #10B981;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
